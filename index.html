@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -38,14 +38,13 @@
           >
         </li>
         <li><a href="galeria.html">Galería de Imágenes</a></li>
-      </li>
-      <li><a href="#Contacto">Contacto</a></li>
+        <li><a href="#Contacto">Contacto</a></li>
       </ul>
     </nav>
     <main>
       <article id="Motores">
         <h1>Los Motores de Harley Davidson</h1>
-        <section id="El primer motor">
+        <section id="El_primer_motor">
           <h2>El primer motor</h2>
           <h3>Año 1903</h3>
           <p>
@@ -80,7 +79,7 @@
           </p>
           <figure>
             <img
-              src="assets/V-Twin de Harley-Davidson – 1909.jpg"
+              src="assets/V-Twin_de_Harley-Davidson–1909.jpg"
               width="500"
               alt="Imagen del primer motor V-Twin de Harley-Davidson"
             />
@@ -127,7 +126,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor F-Head.jpg"
+              src="assets/Motor_F-Head.jpg"
               width="500"
               alt="Imagen del Motor F-Head"
             />
@@ -137,7 +136,7 @@
           </figure>
         </section>
 
-        <section id="W Sport Twin">
+        <section id="W_Sport_Twin">
           <h2>W Sport Twin</h2>
           <h3>1919 – 1923</h3>
           <p>
@@ -162,7 +161,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor WJ Sport Twin.jpg"
+              src="assets/Motor_WJ_Sport_Twin.jpg"
               width="500"
               alt="Imagen del Motor WJ Sport Twin"
             />
@@ -192,7 +191,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor Flathead.jpg"
+              src="assets/Motor_Flathead.jpg"
               width="500"
               alt="Imagen del Motor Flathead"
             />
@@ -200,7 +199,7 @@
           </figure>
         </section>
 
-        <section id="Motor boxer">
+        <section id="Motor_boxer">
           <h2>Motor boxer XA</h2>
           <h3>1942 – 1943</h3>
           <p>
@@ -221,7 +220,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor Boxer XA.jpg"
+              src="assets/Motor_Boxer_XA.jpg"
               width="500"
               alt="Imagen del Motor Boxer XA"
             />
@@ -270,7 +269,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor Knucklehead.jpg"
+              src="assets/Motor_Knucklehead.jpg"
               width="500"
               alt="Imagen del Motor Knucklehead"
             />
@@ -317,7 +316,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor Panhead.jpg"
+              src="assets/Motor_Panhead.jpg"
               width="500"
               alt="Imagen del Motor Panhead"
             />
@@ -359,7 +358,7 @@
           </p>
           <figure>
             <img
-              src="assets/Motor Shovelhead.jpg"
+              src="assets/Motor_Shovelhead.jpg"
               width="500"
               alt="Imagen del Motor Shovelhead"
             />
@@ -393,10 +392,11 @@
         </ul>
       </aside>
       <h2>¿Tienes alguna duda o quieres saber más?</h2>
-      <form action="formulario de contacto" method="post">
-        <label for="nombre">Nombre:</label>
+      <form action="formulario_de_contacto" method="post">
+        <label for="Nombre">Nombre:</label>
         <input
           type="text"
+          id="Nombre"
           name="nombre"
           required
           pattern="[A-Za-z\s]+"
@@ -406,6 +406,7 @@
         <label for="email">e-mail:</label>
         <input
           type="email"
+          id="email"
           name="email"
           required
           placeholder="ejemplo@email.com"
@@ -413,12 +414,13 @@
         <label for="asunto">Asunto:</label>
         <input
           type="text"
+          id="asunto"
           name="asunto"
           required
           placeholder="Motivo de tu consulta"
         />
         <label for="mensaje">Mensaje:</label>
-        <textarea name="mensaje" required></textarea>
+        <textarea id="mensaje" name="mensaje" required></textarea>
         <button type="submit">Enviar</button>
       </form>
     </main>
